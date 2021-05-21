@@ -94,8 +94,41 @@ img {vertical-align: middle;}
 }
 /* Programas*/
 
+.titles{
+  font-size: 30px;
+}
+
+
 #programs{
     background-color: #fff;
+}
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+.column1{
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+}
+
+.column2{
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+}
+
+.column3{
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
 }
 
 .fade-in-psd{
