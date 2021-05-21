@@ -70,7 +70,7 @@ li a:hover {
 /* Fondo */    
 
 .fondo{
-  background-image: url(../images/Background2.jpg);
+  background-image: url(../images/background2.jpg);
   height: 700px;
   background-position: center;
   background-size:cover;
