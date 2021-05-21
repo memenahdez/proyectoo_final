@@ -70,10 +70,6 @@ li a:hover {
   background-color:#CFC0B8;
 }
 
-footer{
-    background-color: #F6F1ED;
-}
-
 
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
@@ -235,4 +231,111 @@ h1 {
   background-color: #666;
   color: white;
 }
+
+/* Footer */
+
+footer h6 {
+  margin-bottom: 40px;
+  position: relative;
+  }
+  footer h6:after {
+  position: absolute;
+  width: 12%;
+  height: 1px;
+  left: 0;
+  bottom: -20px;
+  }
+   .btn-footer {
+               color:#707070;
+  
+              text-decoration: none;
+              border: 1px solid;
+              border-radius: 43px;
+              font-size: 13px;
+              padding: 7px 30px;
+              line-height: 47px;
+   }
+   .btn-footer:hover {
+              
+              text-decoration: none;
+             
+   }
+  .form-footer input[type="text"] {
+      border: none;
+  border-radius: 16px 0 0 16px;
+  outline: none;
+  padding-left: 10px;
+  
+  }
+  ::placeholder {
+  font-size: 10px;
+  padding-left: 10px;
+  font-style: italic;
+  }
+  .form-footer input[type="button"] {
+  border: none;
+  background:#232323;
+      margin-left: -5px;
+  color: rgb(161, 40, 40);
+  outline: none;
+  border-radius: 0 16px 16px 0;
+  padding: 2px 12px;
+  }
+  
+   .social .fa {
+  font-size: 22px;
+  padding: 10px 15px;
+  }
+   footer ul li {
+  list-style: none;
+  display: block;
+  }
+  footer ul  {
+  padding-left: 0;
+  }
+  footer ul  li a{
+  text-decoration: none;
+  color: grey;
+  text-decoration:none;
+  }
+  a:hover {
+  text-decoration: none;
+  color: #B68482 !important;
+  
+  }
+  
+  footer {
+    padding: 3%;
+    background-color: #F6F1ED;
+  }
+  
+  
+  .social {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 20px 500px 0px 0px;
+    width: 50%;
+  }
+  
+  .social-button {
+    width: 64px;
+    padding: 8%;
+  }
+  
+  .img-fosshost {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  .contacto{
+    float: right;
+    padding:20px 0px 0px 500px
+  }
+  
+  .imgW{
+   padding: 20px 100px 0px 0px;
+  }
 
